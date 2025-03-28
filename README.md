@@ -23,18 +23,6 @@ This workflow supports:
 
 ## Pipeline Structure
 
-```text
-Extract Variant from Hail
-        ↓
-  Prepare Cohort CSV
-        ↓
-   Count Phecodes (PheTK)
-        ↓
-      Run PheWAS
-        ↓
-   Visualize Results
-```
-
 <p align="center">
   <img src="./phewas_pipeline_diagram.png" alt="PheWAS Pipeline Diagram" width="400"/>
 </p>
