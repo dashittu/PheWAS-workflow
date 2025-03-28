@@ -215,4 +215,4 @@ EOF
 ## Acknowledgments
 
 - **The [_All of Us_ Research Program](https://allofus.nih.gov/)**
-- **[PheTK: PheWAS Toolkit](https://github.com/nhgritctran/PheTK)** by nhgritctran
+- **[PheTK: The Phenotype Toolkit](https://github.com/nhgritctran/PheTK)** by nhgritctran
