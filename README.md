@@ -35,21 +35,9 @@ Extract Variant from Hail
    Visualize Results
 ```
 
-![PheWAS Pipeline Diagram](./phewas_pipeline_diagram.png)
-
----
-
-## 🗂️ Directory Structure
-
-```
-📁 PheWAS-Pipeline/
-├── variant_extraction.ipynb       # Hail-based variant filtering
-├── phewas_analysis.ipynb          # PheWAS analysis using PheTK
-├── run_phewas_dsub.ipynb          # Submitting batch PheWAS jobs using dsub
-├── run_phewas.sh                  # Shell script for dsub container execution
-├── phewas_pipeline_diagram.png    # Workflow diagram
-└── README.md
-```
+<p align="center">
+  <img src="./phewas_pipeline_diagram.png" alt="PheWAS Pipeline Diagram" width="400"/>
+</p>
 
 ---
 
