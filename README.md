@@ -72,7 +72,7 @@ pip show PheTK | grep Version
 ### 1. Variant Extraction (Hail)
 
 ```python
-extract_single_variant(
+variant_extraction(
     var_pos='chr17:7579472',
     ref_allele='C',
     alt_allele='T',
