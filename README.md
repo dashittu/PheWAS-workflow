@@ -1,6 +1,6 @@
-# PheWAS Pipeline with Hail Variant Extraction (All of Us Data)
+# PheWAS Pipeline with Hail Variant Extraction (_All of Us_ Data)
 
-This repository contains a workflow for conducting **Phenome-Wide Association Studies (PheWAS)** using genetic variant data from the **All of Us Research Program**, with variant extraction performed from a Hail MatrixTable. The workflow is structured in three primary parts:
+This repository contains a workflow for conducting **Phenome-Wide Association Studies (PheWAS)** using genetic variant data from the **_All of Us_ Research Program**, with variant extraction performed from a Hail MatrixTable. The workflow is structured in three primary parts:
 
 1. **Variant Extraction from Hail Matrix Table**
 2. **PheWAS Analysis using the [PheTK](https://github.com/nhgritctran/PheTK) package**
@@ -13,7 +13,7 @@ This project is ideal for researchers working on genotype-phenotype association 
 ## Project Overview
 
 This workflow supports:
-- Extraction of specific genetic variants (e.g., SNPs) using Hail from All of Us' MatrixTable
+- Extraction of specific genetic variants (e.g., SNPs) using Hail from _All of Us_' MatrixTable
 - Merging variants with phenotype and covariate data
 - Running PheWAS using the [PheTK](https://github.com/nhgritctran/PheTK) package
 - Visualizing results in Manhattan-style plots
@@ -198,7 +198,7 @@ EOF
 
 ## Input Files
 
-- `hail.mt`: MatrixTable from All of Us
+- `hail.mt`: MatrixTable from _All of Us_
 - `variant_file.tsv`: Extracted from Hail
 - `phecode_counts.csv`: Phecode counts file (generated via PheTK)
 - `cohort_with_covariates.csv`: Merged cohort, genotype + covariates
